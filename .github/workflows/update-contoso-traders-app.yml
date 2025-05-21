@@ -1,6 +1,9 @@
 name: update contoso traders app
 
 on:
+  push:
+    branches:
+      - main   # or your default branch
   workflow_dispatch:
 
 env:
